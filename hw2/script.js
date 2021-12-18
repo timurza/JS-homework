@@ -79,6 +79,23 @@ console.log(maxDigit(48967));//9
   styles[styles.length-2] = 'Classic';
   alert(styles.shift());
   styles.unshift('Rap', 'Reggae');
+
+
+
+// Calculator
+let aValues = [];
+while(true){
+  aValues.push(prompt("Enter a number"));
+  if(aValues[aValues.length-1]==15){
+    let iSum = 0;
+    for(iVal of aValues)
+    {
+      iSum+=parseInt(iVal);
+    }
+    console.log(iSum);
+    break;
+  }
+}
   
 
 // Challenge 0:
